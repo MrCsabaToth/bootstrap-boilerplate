@@ -1,7 +1,7 @@
 (function (window) {
 	$("#calc").click(function(event ) {
 		event.preventDefault();
-		var val = $("#inputnumber").text();
+		var val = $("#inputnumber").val();
 		console.log("New val: " + val);
 		// Here comes the interpolation
 		$("#outputnumber").html(val * 5);
